@@ -1,7 +1,0 @@
-<h1>About Page</h1>
-<p>The list of people who had already subscribed</p>
-<ul class="list-group">
-  {{#each model as |subscriber|}}
-    <li class="list-group-item">{{subscriber.email}} <span class="badge cursor-pointer" {{action 'unsubscribe' subscriber}}>unsubsribe</span></li>
-  {{/each}}
-</ul>
