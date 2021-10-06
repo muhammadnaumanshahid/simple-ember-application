@@ -17,7 +17,7 @@ yarn | 1.22.15 | ---
 
 ## Installation
 
-* `git clone <repository-url>` this repository
+* `git clone <repository-url>` this repository.
 * `cd simple_ember_application/<Select Task-I or Task-II>/project`
 * `yarn install`
 
@@ -29,7 +29,7 @@ yarn | 1.22.15 | ---
 
 ### Code Generators
 
-Make use of the many generators for code, try `ember help generate` for more details
+Make use of the many generators for code, try `ember help generate` for more details.
 
 ### Running Tests
 
