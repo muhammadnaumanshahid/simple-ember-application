@@ -4,10 +4,10 @@
   "description": "Demo application for learning Ember.js v3 (Octane)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zoltan-nz/library-app"
+    "url": "https://github.com/muhammadnaumanshahid/simple_ember_application"
   },
   "license": "MIT",
-  "author": "Zoltan Debre",
+  "author": "Muhammad Nauman Shahid",
   "private": false,
   "scripts": {
     "build": "ember build --environment=production",
