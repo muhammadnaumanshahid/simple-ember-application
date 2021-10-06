@@ -61,21 +61,21 @@ Specify what it takes to deploy your app.
 ## Developer Information 
 
 ## Task-I
-* Download or clone the Task-I/project.
+* Download or clone the *Task-I/project*.
 * Open *Command Prompt/Terminal/Console* and navigate to the *project* directory.
-* Use command *npm install* or *yarn install* to install dependencies. Then, use command *npm start* or *yarn start* to launch the project. Enable through firewall if requested.
+* Use command `npm install` or `yarn install` to install dependencies. Then, use command `npm start` or `yarn start` to launch the project. Enable through firewall if requested.
 * Open default browser and use http://localhost:4200 to access the application.
 ## Task-II
-* Follow steps on [**Medium**](https://nauman-shahid.medium.com/how-to-build-a-simple-ember-application-80f5b8ccb076) to create Firebase database and set parameters.
-* Navigate to the project directory and use the commands *npm install firebase* and *ember install emberfire@next* in the *Command Prompt/Terminal/Console* to install packages.
+* Follow steps on [**Medium**](https://nauman-shahid.medium.com/how-to-build-a-simple-ember-application-80f5b8ccb076) to create *Firebase* database and set parameters.
+* Navigate to the project directory and use the commands `npm install firebase` and `ember install emberfire@next` in the *Command Prompt/Terminal/Console* to install packages.
 * Copy-paste the configuration values from *Firebase* to your *Ember.js* application */.env-sample* file and rename it as *.env*.
-* Navigate to the project directory in the *Command Prompt/Terminal/Console* and and use *npm install* or *yarn install* to install dependencies. Then, use command *npm start* or *yarn start* to launch the project. Enable through firewall if requested.
+* Navigate to the project directory in the *Command Prompt/Terminal/Console* and and use `npm install` or `yarn install` to install dependencies. Then, use command `npm start` or `yarn start` to launch the project. Enable through firewall if requested.
 * Open default browser and use *http://localhost:4200* to access the application.
 * Save an email address in the database (e.g., *bennett@nshahid.info*).
 ## Task-III
-* Generate *New Private Key* in the *Firebase Admin SDK*. Go to *Project Overview > Project Settings > Service Accounts > FireBase Admin SDK*. Download New *Private Key* (*json* file) by clicking the button *Generate new private key*. For information on how to create a Firebase account, please follow [**Medium**](https://nauman-shahid.medium.com/how-to-build-a-simple-ember-application-80f5b8ccb076) article. To know, how to create Task-III, please follow [**How to Make an Application Using Spring Boot (Server-side)**](https://medium.com/analytics-vidhya/how-to-make-a-web-application-using-spring-boot-4c89c8e7053e).
+* Generate *New Private Key* in the *Firebase Admin SDK*. Go to *Project Overview > Project Settings > Service Accounts > FireBase Admin SDK*. Download New *Private Key* (*json* file) by clicking the button *Generate new private key*. For information on how to create a Firebase account, please follow [**Medium**](https://nauman-shahid.medium.com/how-to-build-a-simple-ember-application-80f5b8ccb076) article. To know, how to create Task-III, please follow [**How to Make an Application Using Spring Boot (Server-side)**](https://medium.com/analytics-vidhya/how-to-make-a-web-application-using-spring-boot-4c89c8e7053e) Task-II.
 * Move the json file created in Task-II to *demo/src/main/resources* directory.
-* Modify *demo/src/main/java/com/example/demo/GreetingController.java as highlighted in [**Medium**](https://nauman-shahid.medium.com/how-to-build-a-simple-ember-application-80f5b8ccb076).
+* Modify *demo/src/main/java/com/example/demo/GreetingController.java* as highlighted in [**Medium**](https://nauman-shahid.medium.com/how-to-build-a-simple-ember-application-80f5b8ccb076).
 * Open *Command Prompt/Terminal/Console*, navigate to the *Task-III/demo* directory and run using the command `mvn spring-boot:run`.
 * Open your default browser and use the following web-links to *get_mails* from and *set_mail* to the database.
   
