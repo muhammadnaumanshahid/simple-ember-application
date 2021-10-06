@@ -76,7 +76,7 @@ Specify what it takes to deploy your app.
 * Generate *New Private Key* in the *Firebase Admin SDK*. Go to *Project Overview > Project Settings > Service Accounts > FireBase Admin SDK*. Download New *Private Key* (*json* file) by clicking the button *Generate new private key*. For information on how to create a Firebase account, please follow [**Medium**](https://nauman-shahid.medium.com/how-to-build-a-simple-ember-application-80f5b8ccb076) article. To know, how to create Task-III, please follow [**How to Make an Application Using Spring Boot (Server-side)**](https://medium.com/analytics-vidhya/how-to-make-a-web-application-using-spring-boot-4c89c8e7053e).
 * Move the json file created in Task-II to *demo/src/main/resources* directory.
 * Modify *demo/src/main/java/com/example/demo/GreetingController.java as highlighted in [**Medium**](https://nauman-shahid.medium.com/how-to-build-a-simple-ember-application-80f5b8ccb076).
-* Open *Command Prompt/Terminal/Console*, navigate to the *Task-III/demo* directory and run using the command *mvn spring-boot:run*.
+* Open *Command Prompt/Terminal/Console*, navigate to the *Task-III/demo* directory and run using the command `mvn spring-boot:run`.
 * Open your default browser and use the following web-links to *get_mails* from and *set_mail* to the database.
   
   *http://localhost:8080/get_mails*
