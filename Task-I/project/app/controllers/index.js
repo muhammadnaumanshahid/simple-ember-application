@@ -6,7 +6,7 @@ import classic from 'ember-classic-decorator';
 
 @classic
 export default class IndexController extends Controller {
-  headerMessage = 'Demo Home Page';
+  headerMessage = 'Home Page';
   @tracked responseMessage = '';
   @tracked emailAddress = '';
 
@@ -18,7 +18,7 @@ export default class IndexController extends Controller {
     const newInvitation = this.store.createRecord('invitation', { email: this.emailAddress });
 
     newInvitation.save().then((response) => {
-      this.responseMessage = `Thank you! We saved a fake email address with the following id: ${response.id}`;
+      this.responseMessage = `Thank you! We saved your email address with the following id: ${response.id}`;
       this.emailAddress = '';
     });
   }
