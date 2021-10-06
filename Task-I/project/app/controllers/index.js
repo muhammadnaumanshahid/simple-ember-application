@@ -6,7 +6,7 @@ import classic from 'ember-classic-decorator';
 
 @classic
 export default class IndexController extends Controller {
-  headerMessage = 'Demo Home Page';
+  headerMessage = 'Home Page';
   @tracked responseMessage = '';
   @tracked emailAddress = '';
 
