@@ -13,7 +13,7 @@ You will need the following things properly installed on your computer.
 ## Installation
 
 * `git clone <repository-url>` this repository
-* `cd simple_ember_application/task-i/project`
+* `cd simple_ember_application/<Select Task-I or Task-II>/project`
 * `yarn install`
 
 ## Running / Development
