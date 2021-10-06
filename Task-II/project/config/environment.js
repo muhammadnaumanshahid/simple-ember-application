@@ -2,7 +2,7 @@
 
 module.exports = function (environment) {
   let ENV = {
-    modulePrefix: 'library-app',
+    modulePrefix: 'project-fb-555',
     environment,
     rootURL: '/',
     locationType: 'auto',
