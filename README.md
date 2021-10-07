@@ -1,17 +1,17 @@
 # How to Make a Web Application Using Spring Boot
 The purpose of this tutorial is to demonstrate the interaction of client-side and server-side in a web application development. We use *Ember.js* for client-side UI and *Firebase* for the server-side development. 
 
-The tutorial uses following packages/software.
+The tutorial uses following pre-requisites.
 
 **Package** | **Version** | **Source**
 --- | --- | ---
 Java | 17.0.0 | https://www.oracle.com/java/technologies/downloads
 Python | 2.7.18 | https://www.python.org/downloads
-Spring Boot | 2.5.5 | ---
+Spring Boot | 2.5.5 | See tutorial [**How to Make an Application Using Spring Boot(Server-side)**](https://medium.com/analytics-vidhya/how-to-make-a-web-application-using-spring-boot-4c89c8e7053e)
 Node.js | 14.18.0 | https://nodejs.org/en
-Ember-cli | 3.28.0 | ---
-npm | 6.14.15 | ---
-yarn | 1.22.15 | ---
+Ember-cli | 3.28.0 | `npm install -g ember-cli`
+npm | 6.14.15 | Default with *Node.js*
+yarn | 1.22.15 | `npm install --global yarn`
 
 ## Simple Installation and Run
 
@@ -58,7 +58,9 @@ Specify what it takes to deploy your app.
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
 
-# Developer Information 
+# Developer Information
+
+Install all pre-rquisites. 
 
 ## Task-I
 * Download or clone the *Task-I/project*.
