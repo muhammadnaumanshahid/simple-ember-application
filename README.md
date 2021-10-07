@@ -7,7 +7,7 @@ The tutorial uses following pre-requisites.
 --- | --- | ---
 Java | 17.0.0 | https://www.oracle.com/java/technologies/downloads
 Python | 2.7.18 | https://www.python.org/downloads
-Spring Boot | 2.5.5 | See tutorial [**How to Make an Application Using Spring Boot(Server-side)**](https://medium.com/analytics-vidhya/how-to-make-a-web-application-using-spring-boot-4c89c8e7053e)
+Spring Boot | 2.5.5 | See tutorial [**How to Make an Application Using Spring Boot (Server-side)**](https://medium.com/analytics-vidhya/how-to-make-a-web-application-using-spring-boot-4c89c8e7053e)
 Node.js | 14.18.0 | https://nodejs.org/en
 Ember-cli | 3.28.0 | `npm install -g ember-cli`
 npm | 6.14.15 | Default with *Node.js*
